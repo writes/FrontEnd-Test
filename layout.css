@@ -1,0 +1,103 @@
+
+/* Reset
+------------------------------------------------------------------------------*/
+
+html, body, br, hr, div, span, a, object, iframe, ul, ol, dl, li, dt, dd, h1, h2, h3, h4, h5, h6, p, blockquote, q, address,
+small, big, cite, dfn, ins, del, i, em, b, strong, sup, sub, strike, pre, code, samp, kbd, var, tt, form, fieldset, legend, label,
+input, textarea, option, .nobox {background: transparent; border: 0; font-size: 100%; margin: 0; outline: 0; padding: 0; vertical-align: baseline;}
+
+blockquote, q {quotes: none;}
+br {height: 0;}
+ul, ol, dl {list-style: none;}
+
+/* Clear Floats */
+.clear {clear:both; display:block; overflow:hidden; visibility:hidden; width:0; height:0;}
+
+/* Base
+------------------------------------------------------------------------------*/
+
+/* Default Headers  */
+h1, h2, h3, h4, h5, h6 {color: #000; font-family: "Arial",sans-serif;}
+
+/* Default Paragraphs */
+p {color:#000; line-height:20px; font-family: "Arial",sans-serif;}
+
+/* Specific Headers */
+h1 {font-size: 44px; font-family: "Oswald", sans-serif; text-transform: uppercase; color:#0074c5; font-weight:lighter;}
+h2 {font-size: 23px;}
+h3 {font-size: 18px;}
+h4 {font-size: 16px;}
+h5 {font-size: 14px;}
+h6 {font-size: 12px;}
+
+/* Other Styling */
+strong {font-weight: bold;}
+hr {border:0 #000 solid; border-top-width: 1px; clear: both; height: 0;}
+ol {list-style: decimal;}
+ul {list-style: disc;}
+
+.left{float: left;}
+.right{float: right;}
+#super{vertical-align: super; display: inline; font-size: xx-small;} 
+/* Links */
+
+a {color:#fff; text-decoration: none;}
+a:hover {color:#000000; text-decoration: none;}
+a:active {outline: none;}
+a:focus {outline: none;}
+
+/* Site Framework
+------------------------------------------------------------------------------*/
+
+/* Page Layout */
+html, body {height: 100%;}
+
+/* Wrapper */
+#wrapper {min-height: 100%; height: auto !important; margin:0 auto; width: 990px; }
+
+/* Header */
+header{margin:20px 0 0 0; height:220px; display: block; position: relative;}
+
+.logo{margin:0px 0 40px 0;}
+.main_heading h1 span{font-size: 49px;}
+.main_heading p{font-size: 20px;}
+.partner{width:368px; height:208px; top:17px; right:0; position: absolute;}
+
+/* Content */
+#main{padding:40px 0; width: 990px; background: #0074c5; position: relative; z-index: 1; overflow: auto;}
+
+.content_left{margin:0 40px; display: block; width: 420px;}
+.content_left p{margin:0 0 40px 0; color:#fff; font-size: 15px;}
+.content_left p:first-child{font-size: 16px;}
+.content_left span{color:#fff; display: block; text-align: center; font-size: 16px; font-family: "Arial", sans-serif}
+.content_left ul{list-style: none;}
+.content_left a{text-decoration: underline;}
+
+.content_right{margin:0 40px 0 0; padding:25px 35px; width: 350px; border-radius: 5px; display:block; text-align: center; background: #fff; }
+.content_right h2{margin:10px 0 0 0;}
+.content_right p{margin: 0 0 10px 0; font-size: 15px; color: #4c4c4c; }
+.content_right p:first-of-type{margin:0 0 15px 0;}
+.content_right strong{color: #000;}
+
+.list{margin:0 0 15px 0; padding:20px 0; width: 100%; background: #e4e4e4; text-align: left;}
+.list ul{margin: 0 auto; width: 275px;}
+.list ul li{margin: 0 0 10px 10px; list-style-position: inside; text-indent:-11px; font-family: "Arial",sans-serif; font-size: 12px; color: #4c4c4c;}
+.list ul li:first-child{margin-top:10px;}
+
+/* Footer Push */
+#push {height: 30px;}
+
+/* Footer */
+footer {height: 80px; background: #fff;}
+
+.social ul{list-style: none;}
+.social ul li{display: inline-block; font-size: 14px;}
+.social ul li a{width:18px; height:20px; display: block;}
+.linkedin a{background: url('/images/social-icons.png') no-repeat; text-indent: -9999px;}
+.facebook a{background: url('/images/social-icons.png') -23px 0px no-repeat; text-indent: -9999px;}
+.twitter a{background: url('/images/social-icons.png') -45px 0px no-repeat; text-indent: -9999px;}
+
+.contact p{font-size: 13px; display: inline-block;}
+.contact p:first-of-type{margin:0 20px 0 0;}
+.sales_icon{margin: 0 5px -3px 0; background: url('/images/small-icons.png') 10px 0px no-repeat; display: inline-block; height: 18px; width: 20px; }
+.support_icon{ margin: 0 0px -3px 0; background: url('/images/small-icons.png') -10px 0px no-repeat; display: inline-block; height: 18px; width: 20px;}
